@@ -95,7 +95,7 @@ class SoundManager : NSObject, AVAudioPlayerDelegate {
   }
 
   public func resumeMusic() {
-    audioPlayer?.setVolume(0.5, fadeDuration: 0.25)
+    audioPlayer?.setVolume(0.2, fadeDuration: 0.25)
 
     startPlaying()
   }
